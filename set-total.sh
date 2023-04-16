@@ -20,6 +20,9 @@ function main() {
 
   # release-it set
   chmod +x ./scripts/set-release-it.sh && ./scripts/set-release-it.sh
+
+  # done banner
+  doneBanner
 }
 
 function banner() {
@@ -29,6 +32,14 @@ function banner() {
  echo "${BOLD}${CYAN}/ /_/ / /_/ / /_/ / /_/ / (__  )  (__  ) /__/ /  / / /_/ / /_(__  )   ${RESET}"
  echo "${BOLD}${CYAN}\____/\____/\____/\____/ /____/  /____/\___/_/  /_/ .___/\__/____/    ${RESET}"
  echo "${BOLD}${CYAN}                                                 /_/                  ${RESET}"
+}
+
+function doneBanner() {
+ echo "${BOLD}${CYAN}     ____  ____  _   ________    ${RESET}"
+ echo "${BOLD}${CYAN}    / __ \/ __ \/ | / / ____/    ${RESET}"
+ echo "${BOLD}${CYAN}   / / / / / / /  |/ / __/       ${RESET}"
+ echo "${BOLD}${CYAN}  / /_/ / /_/ / /|  / /___       ${RESET}"
+ echo "${BOLD}${CYAN} /_____/\____/_/ |_/_____/       ${RESET}"
 }
 
 main
