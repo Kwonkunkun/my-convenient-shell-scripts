@@ -13,13 +13,12 @@ To use this script, simply run it in your project directory. It assumes that you
 
 if you want to set all scripts, run
 ```shell
-chmod +x set-total.sh && ./set-total.sh
+chmod +x ${path of set-total.sh} && ${path of set-total.sh}
 ```
 
 if you want to set some scripts, run 
-1. go to the directory where you want to set scripts
 ```shell
-chmod +x set-[you want scripts].sh && ./set-[you want scripts].sh
+chmod +x ${path of set-[you want scripts].sh} && ${path of set-[you want scripts].sh}
 ```
 
 ## Features
