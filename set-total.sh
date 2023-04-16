@@ -5,21 +5,24 @@ RESET="\033[0m"
 BOLD="\033[1m"
 CYAN="\033[36m"
 
+# script dir
+SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
+
 function main() {
   # banner
   banner
 
   # husky set
-  chmod +x ./scripts/set-husky.sh && ./scripts/set-husky.sh
+  chmod +x "$SCRIPT_DIR/scripts/set-husky.sh" && "$SCRIPT_DIR/scripts/set-husky.sh"
 
   # commitizen set
-  chmod +x ./scripts/set-commitizen.sh && ./scripts/set-commitizen.sh
+  chmod +x "$SCRIPT_DIR/scripts/set-commitizen.sh" && "$SCRIPT_DIR/scripts/set-commitizen.sh"
 
   # commit convention set
-  chmod +x ./scripts/set-commit-convention.sh && ./scripts/set-commit-convention.sh
+  chmod +x "$SCRIPT_DIR/scripts/set-commit-convention.sh" && "$SCRIPT_DIR/scripts/set-commit-convention.sh"
 
   # release-it set
-  chmod +x ./scripts/set-release-it.sh && ./scripts/set-release-it.sh
+  chmod +x "$SCRIPT_DIR/scripts/set-release-it.sh" && "$SCRIPT_DIR/scripts/set-release-it.sh"
 
   # done banner
   doneBanner
