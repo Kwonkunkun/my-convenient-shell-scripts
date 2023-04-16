@@ -1,6 +1,11 @@
 # my-convenient-shell-scripts
 
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/59603575/232329545-f84826da-e30c-4d9a-9072-aa92505f7bae.png">
+
 This script sets up several Git hooks and packages in order to enforce a standardized commit message format and streamline the release process.
+
+## Constraints
+npm version 7 or higher (because of the 'npm pkg' command)
 
 ## Usage
 
@@ -8,18 +13,14 @@ To use this script, simply run it in your project directory. It assumes that you
 
 if you want to set all scripts, run
 ```shell
-chmod +x set-total.sh
-./set-total.sh
+chmod +x set-total.sh && ./set-total.sh
 ```
 
-if you want to set some scripts, run
+if you want to set some scripts, run 
+1. go to the directory where you want to set scripts
 ```shell
-chmod +x set-[you want scripts].sh
-./set-[you want scripts].sh
+chmod +x set-[you want scripts].sh && ./set-[you want scripts].sh
 ```
-
-## Constraints
-npm version 7 or higher (because of the 'npm pkg' command)
 
 ## Features
 
