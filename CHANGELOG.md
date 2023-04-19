@@ -1,5 +1,12 @@
 
 
+## [1.1.1](https://github.com/Kwonkunkun/my-convenient-shell-scripts/compare/v1.1.0...v1.1.1) (2023-04-19)
+
+
+### Bug Fixes
+
+* remove inquire process ([4ead433](https://github.com/Kwonkunkun/my-convenient-shell-scripts/commit/4ead4331e68603ac01331e89be8426146932d239))
+
 ## 1.1.0 (2023-04-19)
 
 
