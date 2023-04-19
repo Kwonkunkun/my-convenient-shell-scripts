@@ -6,7 +6,7 @@ BOLD="\033[1m"
 CYAN="\033[36m"
 
 # script dir
-SCRIPTS_DIR=../scripts
+SCRIPTS_DIR=$(cd "$(dirname "$0")/../scripts" && pwd)
 
 function main() {
   banner
