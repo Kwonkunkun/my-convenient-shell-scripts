@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # ANSI escape
 RESET="\033[0m"
