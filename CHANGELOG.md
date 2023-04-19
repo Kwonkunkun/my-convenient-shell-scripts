@@ -1,5 +1,12 @@
 
 
+## [1.1.3](https://github.com/Kwonkunkun/my-convenient-shell-scripts/compare/v1.1.2...v1.1.3) (2023-04-19)
+
+
+### Bug Fixes
+
+* change path ([250c337](https://github.com/Kwonkunkun/my-convenient-shell-scripts/commit/250c3373eaf2d340fdc64100b3302c14d69c358b))
+
 ## [1.1.2](https://github.com/Kwonkunkun/my-convenient-shell-scripts/compare/v1.1.1...v1.1.2) (2023-04-19)
 
 
