@@ -1,5 +1,12 @@
 
 
+## [1.1.2](https://github.com/Kwonkunkun/my-convenient-shell-scripts/compare/v1.1.1...v1.1.2) (2023-04-19)
+
+
+### Bug Fixes
+
+* edit use Relative path in set-all.sh ([eb6147b](https://github.com/Kwonkunkun/my-convenient-shell-scripts/commit/eb6147b2e23dcb46f9a5341cfaae3a1a0d214b0e))
+
 ## [1.1.1](https://github.com/Kwonkunkun/my-convenient-shell-scripts/compare/v1.1.0...v1.1.1) (2023-04-19)
 
 
