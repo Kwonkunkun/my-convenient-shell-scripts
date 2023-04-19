@@ -1,0 +1,44 @@
+{
+  "name": "@kwonkunkun/convenient-script",
+  "version": "1.0.0",
+  "description": "Kwonkunkun's convenient script",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "release-it": "^15.10.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "release": "release-it"
+  },
+  "bin": {
+    "Kwonkunkun/script": "set-common.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kwonkunkun/my-convenient-shell-scripts.git"
+  },
+  "keywords": [
+    "shell",
+    "script"
+  ],
+  "author": "Kwonkunkun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kwonkunkun/my-convenient-shell-scripts/issues"
+  },
+  "homepage": "https://github.com/Kwonkunkun/my-convenient-shell-scripts#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
