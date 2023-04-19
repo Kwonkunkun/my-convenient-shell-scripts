@@ -9,5 +9,4 @@ CYAN="\033[36m"
 echo "${BOLD}${CYAN}Starting script...${RESET}${CYAN} commitizen${RESET}"
 npm i -D commitizen cz-conventional-changelog
 npm pkg set config.commitizen.path="./node_modules/cz-conventional-changelog"
-npx husky add ./.husky/prepare-commit-msg '#!/bin/bash
-exec < /dev/tty && node_modules/.bin/cz --hook || true'
+npx husky add ./.husky/prepare-commit-msg 'exec < /dev/tty && node_modules/.bin/cz --hook || true'
