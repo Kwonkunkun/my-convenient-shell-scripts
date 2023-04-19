@@ -1,0 +1,9 @@
+.vscode
+.idea
+.github
+.husky
+test
+node_modules
+.release-it.json
+commitlint.config.cjs
+
