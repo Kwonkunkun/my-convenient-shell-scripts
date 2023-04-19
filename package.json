@@ -18,17 +18,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "release": "release-it",
-    "run-banner": "chmod +x ./scripts/run-banner.sh && ./scripts/run-banner.sh",
-    "run-done-banner": "chmod +x ./scripts/run-done-banner.sh && ./scripts/run-done-banner.sh",
-    "set-all": "chmod +x ./set-all.sh && ./set-all.sh",
-    "set-husky": "chmod +x ./scripts/set-husky.sh && ./scripts/set-husky.sh",
-    "set-commitlint": "chmod +x ./scripts/set-commitlint.sh && ./scripts/set-commitlint.sh",
-    "set-commitizen": "chmod +x./scripts/set-commitizen.sh && ./scripts/set-commitizen.sh",
-    "set-release-it": "chmod +x./scripts/set-release-it.sh && ./scripts/set-release-it.sh"
+    "release": "release-it"
   },
   "bin": {
-    "set-kwon-env": "../bin/run-command.js"
+    "set-kwon-env": "./bin/set-all.sh"
   },
   "repository": {
     "type": "git",
@@ -49,8 +42,5 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "dependencies": {
-    "commander": "^10.0.1",
-    "inquirer": "^9.1.5"
-  }
+  "dependencies": {}
 }
