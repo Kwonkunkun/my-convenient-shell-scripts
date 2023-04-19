@@ -5,20 +5,21 @@
 This script sets up several Git hooks and packages in order to enforce a standardized commit message format and streamline the release process.
 
 ## Constraints
+
+git init must be done before running this script
+
 npm version 7 or higher (because of the 'npm pkg' command)
+
+## Installation
+
+```shell
+npm i kwonkunkun-convenient-script
+```
 
 ## Usage
 
-To use this script, simply run it in your project directory. It assumes that you are using NPM as your package manager.
-
-if you want to set all scripts, run
 ```shell
-chmod +x ${path of set-total.sh} && ${path of set-total.sh}
-```
-
-if you want to set some scripts, run 
-```shell
-chmod +x ${path of set-[you want scripts].sh} && ${path of set-[you want scripts].sh}
+set-kwon-env
 ```
 
 ## Features
